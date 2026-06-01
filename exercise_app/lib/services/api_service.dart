@@ -6,7 +6,7 @@ class ApiService {
   // Đối với Windows desktop chạy local: sử dụng localhost hoặc 127.0.0.1
   // Đối với Android emulator: đổi thành http://10.0.2.2:5000/api
   // Đối với thiết bị thật: sử dụng địa chỉ IP nội bộ của máy tính bạn (ví dụ: http://192.168.1.50:5000/api)
-  static const String baseUrl = 'http://10.220.15.111:5000/api';
+  static const String baseUrl = 'https://exercise-afc3.onrender.com/api';
 
   // Lấy danh sách tất cả đề thi
   static Future<List<Quiz>> getQuizzes() async {
